@@ -39,3 +39,7 @@ Docs: https://docs.expo.dev/eas/index.md
 - If `ios/` and `android/` directories do not exist, they are generated (Continuous Native Generation). Never create or edit them by hand — configure native behavior in `app.json` and config plugins.
 - Expo Go only includes its bundled native modules. After adding a library with native code, the app needs a development build: `npx expo run:ios|android` locally, or `eas build --profile development`.
 - Prefer recommended Expo modules over third-party libraries, and check your available skills before adding dependencies. Docs: https://docs.expo.dev/versions/latest/index.md
+
+## SkillArc delivery boundaries
+
+Keane directly leads G1–G8 and Sai Kiran's solo work. Interns implement React Native feature UI and tests only; Keane owns Expo/EAS, Supabase, auth, generated API transport, and contract changes. Read CONTRIBUTING.md and the assigned GitHub issue before editing. Work inside the issue's allowed paths; cross-group changes need Keane's coordination. Run `npm run check` and show Android/iOS evidence in every feature PR. Never use production data or privileged credentials.

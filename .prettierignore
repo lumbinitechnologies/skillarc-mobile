@@ -1,0 +1,6 @@
+node_modules
+.expo
+dist
+src/api/generated
+package-lock.json
+contracts/mobile-v1.openapi.yaml
