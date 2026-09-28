@@ -19,7 +19,7 @@ jobs:
       # Always check out protected base code; never execute the fork's code with this token.
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event.pull_request.base.sha }}
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
