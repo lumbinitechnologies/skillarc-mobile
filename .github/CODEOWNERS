@@ -1,0 +1,9 @@
+# Either account can satisfy GitHub's code-owner rule.
+# The review-policy check requires Keane on intern/Sai PRs and the independent owner on Keane PRs.
+* @keanesc @lumbinitechnologies
+/.github/ @keanesc @lumbinitechnologies
+/AGENTS.md @keanesc @lumbinitechnologies
+/CONTRIBUTING.md @keanesc @lumbinitechnologies
+/contracts/ @keanesc @lumbinitechnologies
+/scripts/ @keanesc @lumbinitechnologies
+/src/api/ @keanesc @lumbinitechnologies

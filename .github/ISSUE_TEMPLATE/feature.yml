@@ -1,0 +1,43 @@
+name: Mobile work packet
+description: One group-owned deliverable linked to one Jira sprint task
+title: "[SCRUM-###] "
+labels: ["mobile-r1"]
+body:
+  - type: input
+    id: jira
+    attributes:
+      label: Jira key and link
+      placeholder: SCRUM-27 — https://lumbinitechnologies-team.atlassian.net/browse/SCRUM-27
+    validations:
+      required: true
+  - type: input
+    id: group
+    attributes:
+      label: Group and captain
+      placeholder: G2 — captain @handle (Keane is the direct lead)
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: User outcome and acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Allowed paths and cross-group dependencies
+    validations:
+      required: true
+  - type: textarea
+    id: contract
+    attributes:
+      label: API contract revision or approved fixture, and security scope
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Required Android/iOS and failure-state evidence
+    validations:
+      required: true
